@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<script src="jquery-3.4.1.js"></script>
+</head>
+<body>
+	<h1>Jquery Demo!</h1>
+
+	<ul>
+		<li>come</li>
+		<li>go</li>
+		<li>went</li>
+	</ul>
+
+	<button id="pdp">PDP</button>&nbsp;
+	<button id="apc">APC</button>
+
+	<script type="text/javascript">
+		var pdp = 0;
+		$("#pdp").click(function () {
+			pdp++;
+			alert(pdp);
+		});
+		$("#apc").click(function () {
+			alert("A vote for APC");
+		});
+	</script>
+</body>
+</html>
